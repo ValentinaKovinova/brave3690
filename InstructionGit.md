@@ -1,6 +1,12 @@
 <img src="https://jf-balio.pt/img/how-tos/35/what-is-git-bash-how-install-it-windows.jpg" width="100" height="50">
 
+<font color="lightBlue">
+
 # Подсказки по командам GIT
+
+
+## Работа с локальными репозиториями
+<font color="White">
 
 >Создание репозитория:
 ```sh
@@ -38,9 +44,37 @@ git checkout <commitID>
 ```sh
 git checkout <brunchname>
 ```
+<font color="lightBlue">
 
+## Работа с удалёнными репозиториями
+
+<font color="White">
+
+>Клонирование удалённого реподитория в локальный _(копию ссылки можно получить зайдя в репозиторий на сайте GitHub  и нажав кнопку Code)_:
+```sh
+git clone <Копия ссылки с сайта GitHub>
+```
+<font color="yellow">
+
+Важно! Перед тем, как начать вносить изменения необходимо создать свою ветку и перейти в неё, как было описано в блоке «Работа с локальными репозиториями».
+
+<font color="White">
+
+>Выгрузить изменения из локального репозитория в удалённый:
+```sh
+git push
+```
+
+>Загрузить изменения из удалённого репозитория в локальный:
+```sh
+git pull
+```
 ___
-
-Просмотреть полные материалы, использованные в инструкции можно перейдя по [ссылке](https://proglib.io/p/git-cheatsheet "https://proglib.io/p/git-cheatsheet")
+<font color="lightBlue">
 
 **Автор: Валентина Ковинова**
+
+<font color="White">
+
+Просмотреть дополнительные материалы, использованные в инструкции можно перейдя по [ссылке](https://proglib.io/p/git-cheatsheet "https://proglib.io/p/git-cheatsheet")
+
